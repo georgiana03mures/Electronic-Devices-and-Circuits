@@ -1,0 +1,133 @@
+\t (00:00:49) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:49)     Journal start - Wed Dec 13 18:04:44 2023
+\t (00:00:49)         Host=DESKTOP-CPVVLKE User=Georgi Pid=8716 CPUs=4
+\t (00:00:49) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:49) 
+\d (00:00:49) Design opened: C:/Users/Georgi/Desktop/P1_2023_434E_Mures_Elena_GSD_N15_OrCad/Layout/Mures_Georgiana.brd
+\i (00:00:49) generaledit 
+\i (00:00:59) pick grid -204.09 1068.13
+\t (00:00:59) last pick:  -204.00 1068.00
+\i (00:04:11) 3d_viewer 
+\i (00:04:11) setwindow pcb3D
+\i (00:04:11) trapsize 1122
+\i (00:04:11) setwindow pcb
+\i (00:04:11) generaledit 
+\i (00:04:13) setwindow pcb3D
+\i (00:04:13) trapsize 1122
+\i (00:04:24) view3d refresh_auto 
+\i (00:06:42) view3d export 
+\i (00:06:47) fillin "C:\Users\Georgi\Desktop\rr.bmp"
+\i (00:06:47) cd "C:\Users\Georgi\Desktop"
+\i (00:06:47) view3d export "C:/Users/Georgi/Desktop/rr.bmp" 
+\i (00:08:33) trapsize 1122
+\i (00:08:41) trapsize 1122
+\i (00:24:25) setwindow pcb
+\i (00:24:25) xrefdes P10 
+\i (00:24:25) xname_flush 
+\i (00:24:25) trapsize 455
+\i (00:30:43) xNet N53508 
+\i (00:30:43) xNet Vee 
+\i (00:30:43) xNet N52612 
+\i (00:30:43) xrefdes D4 
+\i (00:30:43) xrefdes Q2 
+\i (00:30:43) xrefdes P10 
+\i (00:30:43) xNet N53016 
+\i (00:30:43) xrefdes R9 
+\i (00:30:43) xNet N52912 
+\i (00:30:43) xrefdes R6 
+\i (00:30:43) xNet N53140 
+\i (00:30:43) xrefdes R8 
+\i (00:30:43) xNet N52990 
+\i (00:30:43) xNet Vcc 
+\i (00:30:43) xNet N52842 
+\i (00:30:43) xrefdes R15 
+\i (00:30:43) xrefdes R4 
+\i (00:30:43) xrefdes Q1 
+\i (00:30:43) xNet Gnd 
+\i (00:30:43) xrefdes J3 
+\i (00:30:43) xNet N52640 
+\i (00:30:43) xrefdes Q6 
+\i (00:30:43) xrefdes R7 
+\i (00:30:43) xrefdes C1 
+\i (00:30:43) xrefdes P2 
+\i (00:30:43) xrefdes R5 
+\i (00:30:43) xNet N53588 
+\i (00:30:43) xNet N52626 
+\i (00:30:43) xNet N52752 
+\i (00:30:43) xrefdes U1 
+\i (00:30:43) xrefdes R12 
+\i (00:30:43) xrefdes R16 
+\i (00:30:43) xrefdes J2 
+\i (00:30:43) xrefdes U2 
+\i (00:30:43) xNet N53280 
+\i (00:30:43) xNet N53516 
+\i (00:30:43) xNet N52812 
+\i (00:30:43) xrefdes R14 
+\i (00:30:43) xrefdes D3 
+\i (00:30:43) xrefdes Q4 
+\i (00:30:43) xrefdes U4 
+\i (00:30:43) xrefdes R3 
+\i (00:30:43) xrefdes R1 
+\i (00:30:43) xrefdes U3 
+\i (00:30:43) xNet N52746 
+\i (00:30:43) xrefdes Q5 
+\i (00:30:43) xNet N53266 
+\i (00:30:43) xrefdes J1 
+\i (00:30:43) xrefdes R13 
+\i (00:30:43) xrefdes Q7 
+\i (00:30:43) xrefdes Q3 
+\i (00:30:43) xname_flush 
+\i (00:34:06) xNet N53508 
+\i (00:34:06) xNet Vee 
+\i (00:34:06) xNet N52612 
+\i (00:34:06) xrefdes D4 
+\i (00:34:06) xrefdes Q2 
+\i (00:34:06) xrefdes P10 
+\i (00:34:06) xNet N53016 
+\i (00:34:06) xrefdes R9 
+\i (00:34:06) xNet N52912 
+\i (00:34:06) xrefdes R6 
+\i (00:34:06) xNet N53140 
+\i (00:34:06) xrefdes R8 
+\i (00:34:06) xNet N52990 
+\i (00:34:06) xNet Vcc 
+\i (00:34:06) xNet N52842 
+\i (00:34:06) xrefdes R15 
+\i (00:34:06) xrefdes R4 
+\i (00:34:06) xrefdes Q1 
+\i (00:34:06) xNet Gnd 
+\i (00:34:06) xrefdes J3 
+\i (00:34:06) xNet N52640 
+\i (00:34:06) xrefdes Q6 
+\i (00:34:06) xrefdes R7 
+\i (00:34:06) xrefdes C1 
+\i (00:34:06) xrefdes P2 
+\i (00:34:06) xrefdes R5 
+\i (00:34:06) xNet N53588 
+\i (00:34:06) xNet N52626 
+\i (00:34:06) xNet N52752 
+\i (00:34:06) xrefdes U1 
+\i (00:34:06) xrefdes R12 
+\i (00:34:06) xrefdes R16 
+\i (00:34:06) xrefdes J2 
+\i (00:34:06) xrefdes U2 
+\i (00:34:06) xNet N53280 
+\i (00:34:06) xNet N53516 
+\i (00:34:06) xNet N52812 
+\i (00:34:06) xrefdes R14 
+\i (00:34:06) xrefdes D3 
+\i (00:34:06) xrefdes Q4 
+\i (00:34:06) xrefdes U4 
+\i (00:34:06) xrefdes R3 
+\i (00:34:06) xrefdes R1 
+\i (00:34:06) xrefdes U3 
+\i (00:34:06) xNet N52746 
+\i (00:34:06) xrefdes Q5 
+\i (00:34:06) xNet N53266 
+\i (00:34:06) xrefdes J1 
+\i (00:34:06) xrefdes R13 
+\i (00:34:06) xrefdes Q7 
+\i (00:34:06) xrefdes Q3 
+\i (00:34:06) xname_flush 
+\i (01:38:03) exit 
+\t (01:38:05)     Journal end - Wed Dec 13 19:42:00 2023

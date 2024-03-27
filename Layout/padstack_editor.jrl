@@ -1,0 +1,16 @@
+\t (00:00:00) padstack_editor 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sun Dec 10 16:36:37 2023
+\t (00:00:00)         Host=DESKTOP-CPVVLKE User=Georgi Pid=13484 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession Georgi -file ./#Taaaabz07828.tmp -pname S130 -data C:/Users/Georgi/AppData/Local/Temp/#Taaaacb07828.tmp
+\t (00:00:00) 
+\d (00:00:01) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Thermal Pad"
+\d (00:00:01) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Thermal Pad" 0 3
+\d (00:00:02) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:00:02) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:03) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:04) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:04) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad 1 Pad 2 Pad 3 +
+\d (00:00:04) QtSignal Pad 4 Pad 5 Pad 6 Pad 7 Pad
+\d (00:00:05) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged
+\t (00:00:07)     Journal end - Sun Dec 10 16:36:44 2023
