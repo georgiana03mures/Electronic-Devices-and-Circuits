@@ -1,0 +1,76 @@
+
+**** 11/08/23 21:41:12 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Georgi\Desktop\FACULTATE\anul 3\Proiect 1\Proiect\P1_2023_434E_Mures_Elena_GSD_N15_OrCad\Sc
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Cadence/SPB_17.2/tools/pspice/library/New folder/BC856B.lib" 
+.LIB "C:/Cadence/SPB_17.2/tools/pspice/library/New folder/BC846B.lib" 
+.LIB "C:/Cadence/SPB_17.2/tools/pspice/library/New folder/1N4148.lib" 
+.LIB "c:/users/georgi/desktop/smls14bet/smls14bet.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Georgi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.5 m 0 1u SKIPBP 
+-------------$
+ERROR(ORPSIM-16152): Invalid number: Error while converting token 'm' to double value. Token can be a constant or expression
+.TEMP 0 25 70
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 15N
+R_R15         N38148 0  1k TC=0,0 
+X_R10         N37228 N37228 N37592 POT PARAMS: SET=0.15 VALUE=500k
+Q_Q1         N37336 N37746 N37618 QBC846B 
+X_U2         N44853 N38040 1N4148 
+R_R6         0 N37746  10k TC=0,0 
+Q_Q7         VEE N38040 N37228 QBC856B 
+C_C2         N37422 N37336  4.7p  TC=0,0 
+V_V1         VCC 0 10
+X_U3         N37862 N38244 1N4148 
+X_U4         N38244 VEE 1N4148 
+R_R3         N37330 VCC  680 TC=0,0 
+R_R7         VEE N38156  330 TC=0,0 
+Q_Q5         VCC N37422 N37228 QBC846B 
+R_R16         0 N37592  15k TC=0,0 
+Q_Q4         N38040 N37862 N38156 QBC846B 
+X_R2         N37214 N37214 N37228 POT PARAMS: SET=0 VALUE=10k
+R_R4         N37336 VCC  680 TC=0,0 
+R_R9         N37862 0  6.8k TC=0,0 
+V_V2         0 VEE 10
+R_R5         N37746 N37228  10k TC=0,0 
+R_R12         0 N37678  1k TC=0,0 
+Q_Q6         N37422 N37336 VCC QBC856B 
+R_R13         0 N37678  1k TC=0,0 
+C_C1         0 N37200  22n  TC=0,0 
+Q_Q3         N37618 N37862 N37886 QBC846B 
+R_R8         VEE N37886  330 TC=0,0 
+Q_Q2         N37330 N37200 N37618 QBC846B 
+X_U1         N37422 N44853 1N4148 
+R_R14         N38148 0  1k TC=0,0 
+R_R1         N37200 N37214  330 TC=0,0 
+D_D1         VCC N37678 SMLS14BET 
+D_D2         N38148 VEE SMLS14BET 
+
+**** RESUMING sim.cir ****
+.END
+

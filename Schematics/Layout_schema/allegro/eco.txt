@@ -1,0 +1,82 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Costin/Desktop/PROIECTE/PCB-URI/434E Mures Elena/pcb/lay/D0.brd    |
+|                                                    Tue Dec 05 18:57:54 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CON2_SMR2512_CON2
+ C_SMC0805_22N
+ R_SMR0805_1K
+ R_SMR0805_6.8K
+ R_SMR0805_10K
+ R_SMR0805_15K
+ R_SMR0805_330
+ R_SMR0805_680
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Costin/Desktop/PROIECTE/PCB-URI/434E Mures Elena/pcb/lay/D0.brd    |
+|                                                    Tue Dec 05 18:57:54 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_SMC0805_22N          549.00 1168.00 C_CAPC2008X126N_0805_22N
+ J1                  CON2_SMR2512_CON2      150.00 1210.00 CON2_1210RF_WV_12D_CON2
+ J2                  CON2_SMR2512_CON2      179.00  146.00 CON2_1210RF_WV_12D_CON2
+ J3                  CON2_SMR2512_CON2     1447.00  379.00 CON2_1210RF_WV_12D_CON2
+ R1                  R_SMR0805_330          442.00 1165.00 R_RES2012X50N_0805_330
+ R3                  R_SMR0805_680          675.00 1461.00 R_RES2012X50N_0805_680
+ R4                  R_SMR0805_680          929.00 1460.00 R_RES2012X50N_0805_680
+ R5                  R_SMR0805_10K         1051.00 1082.00 R_RES2012X50N_0805_10K
+ R6                  R_SMR0805_10K         1051.00  992.00 R_RES2012X50N_0805_10K
+ R7                  R_SMR0805_330          912.00  704.00 R_RES2012X50N_0805_330
+ R8                  R_SMR0805_330          716.00  795.00 R_RES2012X50N_0805_330
+ R9                  R_SMR0805_6.8K         852.00  952.00 R_RES2012X50N_0805_6.8K
+ R12                 R_SMR0805_1K           434.00 1382.00 R_RES2012X50N_0805_1K
+ R13                 R_SMR0805_1K           320.00 1283.00 R_RES2012X50N_0805_1K
+ R14                 R_SMR0805_1K           132.00  287.00 R_RES2012X50N_0805_1K
+ R15                 R_SMR0805_1K           132.00  388.00 R_RES2012X50N_0805_1K
+ R16                 R_SMR0805_15K         1478.00  654.00 R_RES2012X50N_0805_15K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Costin/Desktop/PROIECTE/PCB-URI/434E Mures Elena/pcb/lay/D0.brd    |
+|                                                    Tue Dec 05 18:57:54 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2            549.00 1168.00 PRIM_FILE      .\pstchip.dat
+ J1.2            150.00 1210.00 PRIM_FILE      .\pstchip.dat
+ J2.2            179.00  146.00 PRIM_FILE      .\pstchip.dat
+ J3.2           1447.00  379.00 PRIM_FILE      .\pstchip.dat
+ R1.2            442.00 1165.00 PRIM_FILE      .\pstchip.dat
+ R3.2            675.00 1461.00 PRIM_FILE      .\pstchip.dat
+ R4.2            929.00 1460.00 PRIM_FILE      .\pstchip.dat
+ R5.2           1051.00 1082.00 PRIM_FILE      .\pstchip.dat
+ R6.2           1051.00  992.00 PRIM_FILE      .\pstchip.dat
+ R7.2            912.00  704.00 PRIM_FILE      .\pstchip.dat
+ R8.2            716.00  795.00 PRIM_FILE      .\pstchip.dat
+ R9.2            852.00  952.00 PRIM_FILE      .\pstchip.dat
+ R12.2           434.00 1382.00 PRIM_FILE      .\pstchip.dat
+ R13.2           320.00 1283.00 PRIM_FILE      .\pstchip.dat
+ R14.2           132.00  287.00 PRIM_FILE      .\pstchip.dat
+ R15.2           132.00  388.00 PRIM_FILE      .\pstchip.dat
+ R16.2          1478.00  654.00 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       8                                        |
+|       Components changed    :      17                                        |
+|       Slot property added   :      17                                        |
+|                                                                              |
+|   Total ECO changes reported:      42                                        |
+|------------------------------------------------------------------------------|

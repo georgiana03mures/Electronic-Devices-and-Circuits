@@ -1,0 +1,363 @@
+
+**** 12/08/23 21:07:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Georgi\Desktop\P1_2023_434E_Mures_Elena_GSD_N15_OrCad\P1_2023_434E_Mures_Elena_GSD_N15_OrCa
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Cadence/SPB_17.2/tools/pspice/library/New folder/BC856B.lib" 
+.LIB "C:/Cadence/SPB_17.2/tools/pspice/library/New folder/BC846B.lib" 
+.LIB "C:/Cadence/SPB_17.2/tools/pspice/library/New folder/1N4148.lib" 
+.LIB "c:/users/georgi/desktop/smls14bet/smls14bet.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Georgi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.5ms 0 1u SKIPBP 
+.TEMP -20 0 120
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 15N
+R_R15         N38148 0  1k TC=0,0 
+X_R10         N37228 N37228 N37592 POT PARAMS: SET=0.15 VALUE=500k
+Q_Q1         N37336 N37746 N37618 QBC846B 
+R_R6         0 N37746  10k TC=0,0 
+Q_Q7         VEE N38040 N37228 QBC856B 
+V_V1         VCC 0 10
+X_U4         N38244 VEE 1N4148 
+R_R3         N37330 VCC  680 TC=0,0 
+R_R7         VEE N38156  330 TC=0,0 
+Q_Q5         VCC N37422 N37228 QBC846B 
+R_R16         0 N37592  15k TC=0,0 
+Q_Q4         N38040 N37862 N38156 QBC846B 
+X_R2         N37214 N37214 N37228 POT PARAMS: SET=0.11 VALUE=10k
+R_R4         N37336 VCC  680 TC=0,0 
+R_R9         N37862 0  6.8k TC=0,0 
+V_V2         0 VEE 10
+R_R12         0 N37678  1k TC=0,0 
+Q_Q6         N37422 N37336 VCC QBC856B 
+R_R13         0 N37678  1k TC=0,0 
+C_C1         0 N37200  22n  TC=0,0 
+Q_Q3         N37618 N37862 N37886 QBC846B 
+R_R8         VEE N37886  330 TC=0,0 
+Q_Q2         N37330 N37200 N37618 QBC846B 
+R_R14         N38148 0  1k TC=0,0 
+R_R1         N37200 N37214  330 TC=0,0 
+D_D1         VCC N37678 SMLS14BET 
+D_D2         N38148 VEE SMLS14BET 
+X_U3         N37862 N38244 1N4148 
+R_R5         N37228 N37746  10k TC=0,0 
+X_U1         N37422 N514501 1N4148 
+X_U2         N514501 N38040 1N4148 
+
+**** RESUMING sim.cir ****
+.END
+
+**** 12/08/23 21:07:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Georgi\Desktop\P1_2023_434E_Mures_Elena_GSD_N15_OrCad\P1_2023_434E_Mures_Elena_GSD_N15_OrCa
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               SMLS14BET       X_U4.1N4148     X_U3.1N4148     X_U1.1N4148     
+          IS  405.890000E-24    4.352000E-09    4.352000E-09    4.352000E-09 
+           N    2.4475          1.906           1.906           1.906        
+         IKF     .98529                                                      
+          BV                  110             110             110            
+         IBV                  100.000000E-06  100.000000E-06  100.000000E-06 
+          RS   15.483            .6458           .6458           .6458       
+          TT                    3.480000E-09    3.480000E-09    3.480000E-09 
+         CJO   38.500000E-12  704.800000E-15  704.800000E-15  704.800000E-15 
+          VJ     .87273          .869            .869            .869        
+           M     .20189          .03             .03             .03         
+          EG    2.638                                                        
+
+
+               X_U2.1N4148     
+          IS    4.352000E-09 
+           N    1.906        
+          BV  110            
+         IBV  100.000000E-06 
+          RS     .6458       
+          TT    3.480000E-09 
+         CJO  704.800000E-15 
+          VJ     .869        
+           M     .03         
+
+
+**** 12/08/23 21:07:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Georgi\Desktop\P1_2023_434E_Mures_Elena_GSD_N15_OrCad\P1_2023_434E_Mures_Elena_GSD_N15_OrCa
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC856B         QBC846B         
+               PNP             NPN             
+       LEVEL    1               1            
+          IS   20.140000E-15   18.220000E-15 
+          BF  315.3           324.4          
+          NF     .9974           .9932       
+         VAF   39.15           82            
+         IKF     .079            .109        
+         ISE    6.578000E-15  289.400000E-18 
+          NE    1.45            1.4          
+          BR    8.68            8.29         
+          NR     .9952           .9931       
+         VAR    9.5            17.9          
+         IKR     .09             .09         
+         ISC   16.330000E-15    9.982000E-12 
+          NC    1.15            1.763        
+         ISS    0               0            
+          RB   10              10            
+         RBM    5.000000E-06    5            
+         IRB    5.000000E-06    5.000000E-06 
+          RE     .663            .649        
+          RC     .718            .7014       
+         CJE   11.350000E-12   12.440000E-12 
+         VJE     .7071           .7579       
+         MJE     .3808           .3656       
+         CJC    6.395000E-12    3.347000E-12 
+         VJC     .4951           .5463       
+         MJC     .44             .391        
+        XCJC     .6288           .6193       
+         CJS    0               0            
+         VJS     .75             .75         
+         MJS     .333            .333        
+          FC     .9059           .979        
+          TF  654.600000E-12  490.800000E-12 
+         XTF    5.387           9.51         
+         VTF    6.245           2.927        
+         ITF     .2108           .3131       
+          TR   55.000000E-09   90.000000E-09 
+          KF    0               0            
+          AF    1               1            
+          CN    2.2             2.42         
+           D     .52             .87         
+
+
+**** 12/08/23 21:07:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Georgi\Desktop\P1_2023_434E_Mures_Elena_GSD_N15_OrCad\P1_2023_434E_Mures_Elena_GSD_N15_OrCa
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =  -20.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                  SMLS14BET     X_U4.1N4148    X_U3.1N4148  
+
+         IS        1.438E-25      5.090E-11      5.090E-11  
+         VJ        9.337E-01      9.305E-01      9.305E-01  
+        CJO        3.781E-11      7.029E-13      7.029E-13  
+         RS        1.548E+01      6.458E-01      6.458E-01  
+        IKF        9.853E-01      0.000E+00      0.000E+00  
+         BV                       1.100E+02      1.100E+02  
+
+                 X_U1.1N4148    X_U2.1N4148                 
+
+         IS        5.090E-11      5.090E-11  
+         VJ        9.305E-01      9.305E-01  
+        CJO        7.029E-13      7.029E-13  
+         RS        6.458E-01      6.458E-01  
+        IKF        0.000E+00      0.000E+00  
+         BV        1.100E+02      1.100E+02  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC846B        QBC856B                   
+
+         BF        3.244E+02      3.153E+02  
+        ISE        6.781E-19      1.899E-17  
+        VJE        8.368E-01      7.940E-01  
+        CJE        1.188E-11      1.074E-11  
+         RE        6.490E-01      6.630E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.290E+00      8.680E+00  
+        ISC        8.139E-14      1.026E-17  
+        VJC        6.584E-01      6.152E-01  
+        CJC        3.054E-12      5.660E-12  
+         RC        7.014E-01      7.180E-01  
+        RBM        5.000E+00      5.000E-06  
+         IS        3.787E-18      4.186E-18  
+        ISS        0.000E+00      0.000E+00  
+        VJS        8.302E-01      8.302E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 12/08/23 21:07:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Georgi\Desktop\P1_2023_434E_Mures_Elena_GSD_N15_OrCad\P1_2023_434E_Mures_Elena_GSD_N15_OrCa
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =    0.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                  SMLS14BET     X_U4.1N4148    X_U3.1N4148  
+
+         IS        5.879E-24      4.052E-10      4.052E-10  
+         VJ        9.082E-01      9.048E-01      9.048E-01  
+        CJO        3.810E-11      7.037E-13      7.037E-13  
+         RS        1.548E+01      6.458E-01      6.458E-01  
+        IKF        9.853E-01      0.000E+00      0.000E+00  
+         BV                       1.100E+02      1.100E+02  
+
+                 X_U1.1N4148    X_U2.1N4148                 
+
+         IS        4.052E-10      4.052E-10  
+         VJ        9.048E-01      9.048E-01  
+        CJO        7.037E-13      7.037E-13  
+         RS        6.458E-01      6.458E-01  
+        IKF        0.000E+00      0.000E+00  
+         BV        1.100E+02      1.100E+02  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC846B        QBC856B                   
+
+         BF        3.244E+02      3.153E+02  
+        ISE        1.142E-17      2.903E-16  
+        VJE        8.037E-01      7.574E-01  
+        CJE        1.212E-11      1.100E-11  
+         RE        6.490E-01      6.630E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.290E+00      8.680E+00  
+        ISC        7.666E-13      3.193E-16  
+        VJC        6.111E-01      5.645E-01  
+        CJC        3.178E-12      5.970E-12  
+         RC        7.014E-01      7.180E-01  
+        RBM        5.000E+00      5.000E-06  
+         IS        1.974E-16      2.182E-16  
+        ISS        0.000E+00      0.000E+00  
+        VJS        7.965E-01      7.965E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 12/08/23 21:07:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Georgi\Desktop\P1_2023_434E_Mures_Elena_GSD_N15_OrCad\P1_2023_434E_Mures_Elena_GSD_N15_OrCa
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =  120.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                  SMLS14BET     X_U4.1N4148    X_U3.1N4148  
+
+         IS        1.080E-17      1.369E-06      1.369E-06  
+         VJ        7.428E-01      7.379E-01      7.379E-01  
+        CJO        3.995E-11      7.088E-13      7.088E-13  
+         RS        1.548E+01      6.458E-01      6.458E-01  
+        IKF        9.853E-01      0.000E+00      0.000E+00  
+         BV                       1.100E+02      1.100E+02  
+
+                 X_U1.1N4148    X_U2.1N4148                 
+
+         IS        1.369E-06      1.369E-06  
+         VJ        7.379E-01      7.379E-01  
+        CJO        7.088E-13      7.088E-13  
+         RS        6.458E-01      6.458E-01  
+        IKF        0.000E+00      0.000E+00  
+         BV        1.100E+02      1.100E+02  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC846B        QBC856B                   
+
+         BF        3.244E+02      3.153E+02  
+        ISE        7.276E-13      1.263E-11  
+        VJE        5.924E-01      5.259E-01  
+        CJE        1.360E-11      1.262E-11  
+         RE        6.490E-01      6.630E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.290E+00      8.680E+00  
+        ISC        5.006E-09      2.252E-10  
+        VJC        3.153E-01      2.482E-01  
+        CJC        3.949E-12      7.903E-12  
+         RC        7.014E-01      7.180E-01  
+        RBM        5.000E+00      5.000E-06  
+         IS        1.050E-09      1.161E-09  
+        ISS        0.000E+00      0.000E+00  
+        VJS        5.821E-01      5.821E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+
+          JOB CONCLUDED
+
+**** 12/08/23 21:07:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Georgi\Desktop\P1_2023_434E_Mures_Elena_GSD_N15_OrCad\P1_2023_434E_Mures_Elena_GSD_N15_OrCa
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        1.00
+

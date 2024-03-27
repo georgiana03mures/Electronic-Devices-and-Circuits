@@ -1,0 +1,5 @@
+ lib="C:\Cadence\SPB_17.2\tools\pspice\library\New folder\BC856B.lib", offset=475, size=781
+ lib="C:\Cadence\SPB_17.2\tools\pspice\library\New folder\BC846B.lib", offset=476, size=771
+ lib="C:\Cadence\SPB_17.2\tools\pspice\library\New folder\1N4148.lib", offset=400, size=375
+ lib=c:\users\georgi\desktop\smls14bet\smls14bet.lib, offset=135, size=131
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\breakout.lib, offset=9201, size=133

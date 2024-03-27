@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : D0.brd                                        )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Tue Dec 05 18:57:54 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\COSTIN\DESKTOP\PROIECTE\PCB-URI\434E MURES ELENA\PCB\SCHEMA\allegro'
+Design Directory:            'C:/Users/Costin/Desktop/PROIECTE/PCB-URI/434E Mures Elena/pcb/lay'
+Old design name:             'C:/Users/Costin/Desktop/PROIECTE/PCB-URI/434E Mures Elena/pcb/lay/D0.brd'
+New design name:             'C:/Users/Costin/Desktop/PROIECTE/PCB-URI/434E Mures Elena/pcb/lay/D1.brd'
+
+CmdLine: netrev.exe -y 1 -i C:\USERS\COSTIN\DESKTOP\PROIECTE\PCB-URI\434E MURES ELENA\PCB\SCHEMA\allegro C:\Users\Costin\Desktop\PROIECTE\PCB-URI\434E Mures Elena\pcb\lay\D0.brd C:\Users\Costin\Desktop\PROIECTE\PCB-URI\434E Mures Elena\pcb\lay\D1.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/COSTIN/DESKTOP/PROIECTE/PCB-URI/434E MURES ELENA/PCB/SCHEMA/allegro/pstchip.dat 
+   Finished reading C:/USERS/COSTIN/DESKTOP/PROIECTE/PCB-URI/434E MURES ELENA/PCB/SCHEMA/allegro/pstchip.dat (00:00:00.03)
+Starting to read C:/USERS/COSTIN/DESKTOP/PROIECTE/PCB-URI/434E MURES ELENA/PCB/SCHEMA/allegro/pstxprt.dat 
+   Finished reading C:/USERS/COSTIN/DESKTOP/PROIECTE/PCB-URI/434E MURES ELENA/PCB/SCHEMA/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/COSTIN/DESKTOP/PROIECTE/PCB-URI/434E MURES ELENA/PCB/SCHEMA/allegro/pstxnet.dat 
+   Finished reading C:/USERS/COSTIN/DESKTOP/PROIECTE/PCB-URI/434E MURES ELENA/PCB/SCHEMA/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Dec 5 18:57:54 2023
+   DESIGN NAME : 'SCHEMALY'
+   PACKAGING ON Jul 30 2017 03:29:02
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:33
+elapsed time  0:00:00
+

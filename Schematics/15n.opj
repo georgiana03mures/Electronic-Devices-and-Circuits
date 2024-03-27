@@ -1,0 +1,149 @@
+(ExpressProject "15n"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.olb"
+        (Type "Schematic Library"))
+      (File "c:\users\georgi\desktop\smls14bet\smls14bet.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\15n.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Board_sim_option "VHDL_flow")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\USERS\GEORGI\DESKTOP\P1_2023_434E_MURES_ELENA_GSD_N15_ORCAD\SCHEMATICS\15N.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "C:\USERS\GEORGI\DESKTOP\P1_2023_434E_MURES_ELENA_GSD_N15_ORCAD\SCHEMATICS\15N.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\15n-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\15n.bom"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\15n-pspicefiles\schematic1\sim.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\15n-pspicefiles\schematic1\sim.sim"
+        (DisplayName "SCHEMATIC1-sim")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "C:\Cadence\SPB_17.2\tools\pspice\library\New folder\BC856B.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "C:\Cadence\SPB_17.2\tools\pspice\library\New folder\BC856B.lib"))
+      (File "C:\Cadence\SPB_17.2\tools\pspice\library\New folder\BC846B.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "C:\Cadence\SPB_17.2\tools\pspice\library\New folder\BC846B.lib"))
+      (File "C:\Cadence\SPB_17.2\tools\pspice\library\New folder\1N4148.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "C:\Cadence\SPB_17.2\tools\pspice\library\New folder\1N4148.lib"))
+      (File "c:\users\georgi\desktop\smls14bet\smls14bet.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "c:\users\georgi\desktop\smls14bet\smls14bet.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (File "c:\users\georgi\desktop\smls14bet\smls14bet.lib"
+      (Type "EDIF Netlist")))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (SMLS14BET
+      (FullPartName "SMLS14BET.Normal")
+      (LibraryName "C:\USERS\GEORGI\DESKTOP\SMLS14BET\SMLS14BET.OLB")
+      (DeviceIndex "0"))
+    (QBC846B
+      (FullPartName "QBC846B.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\MODELE_A1_LIB\BC846B.OLB")
+      (DeviceIndex "0"))
+    (BC846B
+      (FullPartName "BC846B.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EBIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (QBC847BDW1T1/ON
+      (FullPartName "QBC847BDW1T1/ON.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ON_BJT.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.2\tools\capture\library\Modele_A1_lib")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Georgi\Desktop\P1_2023_434E_Mures_Elena_GSD_N15_OrCad\Schematics\15n.dsn")
+      (Path "Design Resources"
+         "C:\Users\Georgi\Desktop\P1_2023_434E_Mures_Elena_GSD_N15_OrCad\Schematics\15n.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\Users\Georgi\Desktop\P1_2023_434E_Mures_Elena_GSD_N15_OrCad\Schematics\15n.dsn"
+         "Design Cache")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 282"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1382 52 373")
+        (Scroll "-156 130")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\GEORGI\DESKTOP\P1_2023_434E_MURES_ELENA_GSD_N15_ORCAD\SCHEMATICS\15N.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Georgi"))

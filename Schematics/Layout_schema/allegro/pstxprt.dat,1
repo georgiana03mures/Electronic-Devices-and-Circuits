@@ -1,0 +1,330 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Nov-30-2023 at 17:57:11 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SCHEMALY';
+ POST_TIME='Jul 30 2017 03:29:02';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_CAPC2008X126N_0805_22N':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS52538@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins52538@analog.\c.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins52538@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_0_SMD0805_LED':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS54408@SCHEMALY.LED_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins54408@schemaly.\led_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins54408@schemaly.\led_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'LED_0_SMD0805_LED':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS54424@SCHEMALY.LED_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins54424@schemaly.\led_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins54424@schemaly.\led_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_1210RF_WV_12D_CON2':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS54016@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins54016@connector.\con2.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins54016@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON2_1210RF_WV_12D_CON2':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS54053@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins54053@connector.\con2.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins54053@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON2_1210RF_WV_12D_CON2':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS54094@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins54094@connector.\con2.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins54094@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ P10 'POT_TS53YL_500K':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS52922@BREAKOUT.POT.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins52922@breakout.\pot.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins52922@breakout.\pot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ P2 'POT_TS53YL_10K':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS52574@BREAKOUT.POT.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins52574@breakout.\pot.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins52574@breakout.\pot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'QBC846B_0_TO236AB_QBC846B':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS52870@SCHEMALY.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins52870@schemaly.\qbc846b_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins52870@schemaly.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'QBC846B_0_TO236AB_QBC846B':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS52844@SCHEMALY.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins52844@schemaly.\qbc846b_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins52844@schemaly.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q3 'QBC846B_0_TO236AB_QBC846B':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53182@SCHEMALY.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53182@schemaly.\qbc846b_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53182@schemaly.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q4 'QBC846B_0_TO236AB_QBC846B':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53468@SCHEMALY.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53468@schemaly.\qbc846b_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53468@schemaly.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q5 'QBC846B_0_TO236AB_QBC846B':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS52814@SCHEMALY.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins52814@schemaly.\qbc846b_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins52814@schemaly.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q6 'QBC856B_0_TO236AB_QBC856B':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS52754@SCHEMALY.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins52754@schemaly.\qbc856b_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins52754@schemaly.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q7 'QBC856B_0_TO236AB_QBC856B':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53520@SCHEMALY.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53520@schemaly.\qbc856b_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53520@schemaly.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES2012X50N_0805_330':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS52554@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins52554@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins52554@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_RES2012X50N_0805_1K':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53142@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53142@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53142@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_RES2012X50N_0805_1K':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53162@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53162@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53162@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_RES2012X50N_0805_1K':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53448@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53448@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53448@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_RES2012X50N_0805_1K':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53428@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53428@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53428@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_RES2012X50N_0805_15K':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53044@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53044@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53044@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES2012X50N_0805_680':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS52692@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins52692@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins52692@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES2012X50N_0805_680':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS52712@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins52712@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins52712@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RES2012X50N_0805_10K':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53298@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53298@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53298@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES2012X50N_0805_10K':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53406@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53406@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53406@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RES2012X50N_0805_330':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53596@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53596@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53596@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_RES2012X50N_0805_330':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53646@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53646@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53646@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_RES2012X50N_0805_6.8K':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53086@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53086@analog.\r.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53086@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 '1N4148_0_SMD0805_1N4148':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53022@SCHEMALY.1N4148_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53022@schemaly.\1n4148_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53022@schemaly.\1n4148_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 '1N4148_0_SMD0805_1N4148':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53226@SCHEMALY.1N4148_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53226@schemaly.\1n4148_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53226@schemaly.\1n4148_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 '1N4148_0_SMD0805_1N4148':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53354@SCHEMALY.1N4148_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53354@schemaly.\1n4148_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53354@schemaly.\1n4148_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 '1N4148_0_SMD0805_1N4148':;
+
+SECTION_NUMBER 1
+ '@SCHEMALY.SCHEMATIC1(SCH_1):INS53670@SCHEMALY.1N4148_0.NORMAL(CHIPS)':
+ C_PATH='@schemaly.schematic1(sch_1):ins53670@schemaly.\1n4148_0.normal\(chips)',
+ P_PATH='@schemaly.schematic1(sch_1):page_ins53670@schemaly.\1n4148_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
